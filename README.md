@@ -1,1 +1,1 @@
-# The-Entertainment-DB
+# The-Entertainment-DataBase
