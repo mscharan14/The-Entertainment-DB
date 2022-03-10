@@ -13,13 +13,14 @@ This is a Simple Entertainment Information App built with Javascript using The M
 
 # Approach & Logic
 The Data used in this project is fetched from themoviedb.org API(https://www.themoviedb.org/documentation/api).  
+
 **Structure of the Project:**
 - index.html — contains the HTML layout which defines the element structure that would be shown on the page.
 - style.css- contains CSS code for styling. Using CSS we can style the different portions to make them more visually appealing.
 - script.js — contains Javascript code to fetch the API data and to represent it on browser.
 
 **HTML Layout:**  
-Open VSCode and create the basic HTML structure in an index.html file by ! and then pressing tab. Give the title as ‘Movie App’. Link style.css and script.js to the created HTML file.Inside the body we will have header tag which contains h1 tag to display title of the app and form tag which holds the search bar used for searching the movies.we have div tag with the id content where our API fetched data will be presented dynamically.
+Open VSCode and create the basic HTML structure in an index.html file by ! and then pressing tab. Give the title as ‘Entertainment DB’. Link style.css and script.js to the created HTML file.Inside the body we will have header tag which contains h1 tag to display title of the app and form tag which holds the search bar used for searching the movies.we have div tag with the id content where our API fetched data will be presented dynamically.
 
 **Javascript logic:**  
 Below functions are defined in the javascript code,
