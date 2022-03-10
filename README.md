@@ -29,5 +29,11 @@ Open VSCode and create the basic HTML structure in an index.html file by ! and t
 Below functions are defined in the javascript code,
 - getMovies() — A function to fetch movies from API and returns the results using fetch function.The results will be passed to showMovies() function.
 - showMovies() — A function to showcase the results in the browser which basically inserts the HTML code dynamically.The data to this function is passed from the getMovies() function.
-- getClassByRate() — A function which returns the color based on movie rating obtained from API. This color is used in CSS to choose the color of the movie rating text.
+- setGenre() — A function which is used to filter the content on the page with the genre selected by the user.
+- clearBtn() — A fundtion which clears the genre filters that are selected to bring the client to the default page. 
+- highlightSelection() — A function used to highlight the selected genre.
 - An EventListener for search of movies.Once you enter the movie name in the search bar and by clicking on enter will actually submit the form and this event listerner will be triggered.The movie matching the name entered in the search bar will be fetched from the API and it will automatically display all the related title on the list.
+
+**CSS Layout:**
+Here we are arranging the list of the movies obtained from the API using flex . The img tag which holds image of the movie,the movie-info div class which holds information of the movie like movie name,the div class overview which has overview of the movie and knowmore which has the related teaser/trailer footage is inserted in the javascript code dynamically and not defined in the HTML file. The Page Navigation is located below with the arrows pointing to previous and next page.
+Just hovering on the movie banner should actually show the overview. For that we are using transform: translateY(0);
