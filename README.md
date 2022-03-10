@@ -1,4 +1,4 @@
-# The-Entertainment-DataBase
+# The Entertainment DataBase
 This is a Simple Entertainment Information App built with Javascript using The Movie DataBase(TMDB) API.
 (https://www.themoviedb.org/documentation/api) 
 
